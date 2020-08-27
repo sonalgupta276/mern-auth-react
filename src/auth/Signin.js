@@ -11,9 +11,9 @@ import GoogleLogin from 'react-google-login'
 
 const Signin = ({ history }) => {
     const [values, setValues] = useState({
-        email: 'sonalgupta276@gmail.com',
-        password: 'sonalgupta',
-        buttonText: 'Submit'
+        email: '',
+        password: '',
+        buttonText: ''
     })
 
     const {email, password, buttonText} = values
